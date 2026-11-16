@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Muhammad Syukur, fresh graduate Teknik Informatika dengan minat IT Support dan Teknisi Komputer.">
+  <title>Muhammad Syukur | IT Support Portfolio</title>
+  <style>
+    :root{--navy:#10243a;--blue:#2563eb;--cyan:#38bdf8;--ink:#172033;--muted:#64748b;--paper:#f5f8fc;--white:#fff;--line:#e5edf5}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1080px,90%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    nav{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.3px;color:var(--navy)}.brand span{color:var(--blue)}
+    .links{display:flex;gap:25px;font-size:14px;color:#475569}.links a:hover{color:var(--blue)}
+    .hero{background:linear-gradient(120deg,#10243a 0%,#173e68 65%,#17618a 100%);color:white;padding:92px 0 88px;overflow:hidden;position:relative}
+    .hero:after{content:"";position:absolute;width:440px;height:440px;border:1px solid #ffffff25;border-radius:50%;right:-100px;top:-170px;box-shadow:0 0 0 55px #ffffff08,0 0 0 110px #ffffff06}
+    .hero-inner{position:relative;z-index:1;max-width:760px}.eyebrow{color:#9bdcff;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:700}
+    h1{font-size:clamp(38px,6vw,64px);line-height:1.08;margin:15px 0}.hero p{font-size:18px;color:#dbeafe;max-width:650px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:12px 20px;border-radius:9px;font-weight:700;font-size:14px}.primary{background:#fff;color:var(--navy)}.outline{border:1px solid #ffffff80;color:#fff}
+    section{padding:76px 0}.section-head{margin-bottom:28px}.kicker{color:var(--blue);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.7px}
+    h2{font-size:32px;color:var(--navy);margin:5px 0 8px;line-height:1.2}.intro{color:var(--muted);max-width:700px;margin:0}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:15px;padding:24px;box-shadow:0 8px 24px #10243a08}
+    .card h3{margin:0 0 8px;color:var(--navy);font-size:18px}.card p{margin:0;color:var(--muted)}
+    .about{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:start}.taglist{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}.tag{font-size:13px;background:#eaf2ff;color:#1d4ed8;padding:7px 11px;border-radius:30px;font-weight:650}
+    .info{display:grid;gap:13px}.info-row{padding-bottom:12px;border-bottom:1px solid var(--line)}.info-row small{display:block;color:var(--muted);font-size:12px}.info-row strong{color:var(--navy)}
+    .skills{grid-template-columns:repeat(3,1fr)}.skill{display:flex;gap:13px;align-items:flex-start}.icon{width:38px;height:38px;display:grid;place-items:center;border-radius:10px;background:#eaf2ff;color:var(--blue);font-weight:900;flex:none}
+    .project{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:start}.project-label{font-size:12px;color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:1px}
+    .project ul{color:var(--muted);padding-left:19px;margin:12px 0 0}.project .pill{background:#eff6ff;color:#1d4ed8;padding:7px 10px;border-radius:8px;font-size:12px;font-weight:700;white-space:nowrap}
+    .note{background:#eff6ff;border:1px solid #dbeafe;border-radius:12px;padding:16px;color:#334155;font-size:14px;margin-top:18px}
+    .contact{background:var(--navy);color:white}.contact h2{color:white}.contact .intro{color:#cbd5e1}.contact-card{margin-top:25px;background:#ffffff12;border:1px solid #ffffff25;border-radius:14px;padding:22px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+    footer{padding:22px 0;text-align:center;color:#94a3b8;background:#0b1a2a;font-size:13px}
+    @media(max-width:760px){.links{gap:12px;font-size:12px}.links a:nth-child(2){display:none}.hero{padding:70px 0}.about,.grid,.skills{grid-template-columns:1fr}.project{grid-template-columns:1fr}.project .pill{width:max-content}section{padding:58px 0}h2{font-size:28px}}
+    @media(max-width:430px){.links a:nth-child(3){display:none}.brand{font-size:14px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="brand" href="#beranda">MUHAMMAD SYUKUR<span>.</span></a>
+  <div class="links"><a href="#tentang">Tentang</a><a href="#keahlian">Keahlian</a><a href="#proyek">Proyek</a><a href="#kontak">Kontak</a></div>
+</nav></div></header>
+<main>
+  <section class="hero" id="beranda"><div class="wrap"><div class="hero-inner">
+    <div class="eyebrow">Portofolio Profesional</div>
+    <h1>Muhammad Syukur</h1>
+    <p>Fresh Graduate S1 Teknik Informatika dengan minat berkarier di bidang <strong>IT Support dan Teknisi Komputer</strong>. Tertarik pada dukungan teknis, perangkat komputer, serta pemecahan masalah teknologi informasi.</p>
+    <div class="actions"><a class="btn primary" href="#proyek">Lihat Proyek</a><a class="btn outline" href="#kontak">Hubungi Saya</a></div>
+  </div></div></section>
+
+  <section id="tentang"><div class="wrap">
+    <div class="section-head"><div class="kicker">Profil</div><h2>Tentang Saya</h2><p class="intro">Perkenalan singkat mengenai latar belakang pendidikan dan arah profesional.</p></div>
+    <div class="about">
+      <div class="card"><p>Saya merupakan lulusan S1 Teknik Informatika Universitas Harapan Medan. Memiliki ketertarikan pada bidang teknologi informasi, khususnya dukungan teknis komputer dan pemeliharaan perangkat. Saya memiliki kemampuan dasar dalam penggunaan komputer, pengolahan dokumen, serta aplikasi Microsoft Office. Saya siap mengembangkan kemampuan dan beradaptasi dengan kebutuhan pekerjaan di lingkungan profesional.</p>
+        <div class="taglist"><span class="tag">IT Support</span><span class="tag">Teknisi Komputer</span><span class="tag">Troubleshooting Dasar</span><span class="tag">Microsoft Office</span></div>
+      </div>
+      <div class="card info">
+        <div class="info-row"><small>Nama</small><strong>Muhammad Syukur</strong></div>
+        <div class="info-row"><small>Pendidikan</small><strong>S1 Teknik Informatika</strong></div>
+        <div class="info-row"><small>Institusi</small><strong>Universitas Harapan Medan</strong></div>
+        <div class="info-row"><small>Status</small><strong>Fresh Graduate</strong></div>
+        <div class="info-row"><small>Bidang yang diminati</small><strong>IT Support / Teknisi Komputer</strong></div>
+      </div>
+    </div>
+  </div></section>
+
+  <section id="keahlian" style="background:#edf3f9"><div class="wrap">
+    <div class="section-head"><div class="kicker">Kompetensi</div><h2>Keahlian</h2><p class="intro">Kemampuan yang relevan untuk posisi awal di bidang dukungan teknologi informasi. Sesuaikan daftar ini dengan kemampuan yang benar-benar dikuasai.</p></div>
+    <div class="grid skills">
+      <div class="card skill"><div class="icon">IT</div><div><h3>Dasar Komputer</h3><p>Pemahaman penggunaan komputer dan perangkat pendukung.</p></div></div>
+      <div class="card skill"><div class="icon">⌕</div><div><h3>Troubleshooting Dasar</h3><p>Identifikasi awal kendala umum pada komputer dan aplikasi.</p></div></div>
+      <div class="card skill"><div class="icon">MS</div><div><h3>Microsoft Office</h3><p>Penggunaan Word, Excel, dan PowerPoint.</p></div></div>
+      <div class="card skill"><div class="icon">DOC</div><div><h3>Pengelolaan Dokumen</h3><p>Menyusun dan mengelola dokumen secara teratur.</p></div></div>
+      <div class="card skill"><div class="icon">DATA</div><div><h3>Pengolahan Data</h3><p>Memasukkan, merapikan, dan mengolah data.</p></div></div>
+      <div class="card skill"><div class="icon">✓</div><div><h3>Sikap Kerja</h3><p>Teliti, disiplin, bertanggung jawab, dan siap beradaptasi.</p></div></div>
+    </div>
+  </div></section>
+
+  <section id="proyek"><div class="wrap">
+    <div class="section-head"><div class="kicker">Karya Akademik</div><h2>Proyek Pilihan</h2><p class="intro">Proyek penerapan pengetahuan selama masa perkuliahan.</p></div>
+    <div class="card project">
+      <div><div class="project-label">Proyek pengembangan aplikasi</div><h3>Chronicles of Islam – Aplikasi Pembelajaran Interaktif</h3>
+        <p>Aplikasi pembelajaran interaktif Sejarah Kebudayaan Islam berbasis Android yang dikembangkan menggunakan Unity.</p>
+        <ul><li>Menyusun materi pembelajaran ke dalam aplikasi.</li><li>Merancang tampilan antarmuka dan navigasi aplikasi.</li><li>Mengembangkan fitur kuis untuk membantu evaluasi pemahaman pengguna.</li></ul>
+        <div class="taglist"><span class="tag">Unity</span><span class="tag">Android</span><span class="tag">UI Design</span><span class="tag">MDLC</span></div>
+      </div>
+      <span class="pill">Proyek Akademik</span>
+    </div>
+      <div class="card project">
+        <div><div class="project-label">Pembuatan Website Pesantren</div><h3>Chronicles of Islam – Aplikasi Pembelajaran Interaktif</h3>
+          <p>Aplikasi pembelajaran interaktif Sejarah Kebudayaan Islam berbasis Android yang dikembangkan menggunakan Unity.</p>
+          <ul><li>Menyusun materi pembelajaran ke dalam aplikasi.</li><li>Merancang tampilan antarmuka dan navigasi aplikasi.</li><li>Mengembangkan fitur kuis untuk membantu evaluasi pemahaman pengguna.</li></ul>
+          <div class="taglist"><span class="tag">Unity</span><span class="tag">Android</span><span class="tag">UI Design</span><span class="tag">MDLC</span></div>
+        </div>
+        <span class="pill">Proyek Akademik</span>
+      </div>
+</section>
+  <section style="background:#edf3f9"><div class="wrap">
+    <div class="section-head"><div class="kicker">Pendidikan</div><h2>Riwayat Pendidikan</h2></div>
+    <div class="card"><div class="project-label">Pendidikan tinggi</div><h3>S1 Teknik Informatika</h3><p>Universitas Harapan Medan</p><p style="margin-top:8px;color:#94a3b8;font-size:13px">Tahun masuk dan kelulusan dapat ditambahkan.</p></div>
+  </div></section>
+
+  <section class="contact" id="kontak"><div class="wrap">
+    <div class="kicker" style="color:#9bdcff">Kontak</div><h2>Mari Terhubung</h2><p class="intro">Saya terbuka untuk kesempatan berkarier dan berdiskusi mengenai bidang IT Support maupun Teknisi Komputer.</p>
+    <div class="contact-card"><div><strong>Muhammad Syukur</strong><br><span style="color:#cbd5e1;font-size:14px">Silakan hubungi saya melalui kontak berikut.</span></div>
+      <div style="font-size:14px;line-height:2">Email: <a href="mailto:emailkamu@example.com" style="color:#9bdcff">muhammad.sukur781@gmail.com</a><br>Telepon/WhatsApp: <span style="color:#9bdcff">085600702996</span><br>Lokasi: Medan, Sumatera Utara</div>
+    </div>
+  </div></section>
+</main>
+<footer>© <span id="year"></span> Muhammad Syukur · Portofolio Profesional</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
